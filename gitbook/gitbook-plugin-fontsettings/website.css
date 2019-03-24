@@ -248,9 +248,10 @@
 }
 .book.color-theme-1 .book-summary ul.summary li.active > a,
 .book.color-theme-1 .book-summary ul.summary li a:hover {
-  color: #704214;
+  color: #ffffff;
   background: transparent;
   font-weight: normal;
+  font-size: large;
 }
 /*
  * Theme 2
