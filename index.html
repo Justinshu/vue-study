@@ -126,6 +126,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4" data-path="v-if和v-on指令/v-if和v-on指令.html">
+            
+                <a href="v-if和v-on指令/v-if和v-on指令.html">
+            
+                    
+                    v-if和v-on指令
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -171,7 +184,245 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="introduction">Introduction</h1>
+                                <h1 id="&#x1F60A;vue&#x5B66;&#x4E60;&#x4E4B;&#x8DEF;">&#x1F60A;vue&#x5B66;&#x4E60;&#x4E4B;&#x8DEF;</h1>
+<blockquote>
+<p>&#x1F60E; &#x751F;&#x4EA7;&#x73AF;&#x5883;&#x4F7F;&#x7528;vue&#x5F00;&#x53D1;&#x524D;&#x7AEF;</p>
+</blockquote>
+<p><em>&#x5E73;&#x65F6;&#x4F7F;&#x7528;vue&#x5F00;&#x53D1;&#x5EFA;&#x8BAE;&#x770B;&#x5B98;&#x65B9;&#x6587;&#x6863;&#xFF1A;<a href="https://cn.vuejs.org/v2/guide/index.html" target="_blank">&#x70B9;&#x6211;&#x76F4;&#x8FBE;</a></em></p>
+<blockquote>
+<p>&#x1F353; &#x57FA;&#x7840;&#x5B66;&#x4E60;&#x8DEF;&#x5F84;&#x5982;&#x4E0B;</p>
+</blockquote>
+<ul>
+<li><p>&#x6307;&#x4EE4;&#x7CFB;&#x7EDF;</p>
+</li>
+<li><p>&#x7EC4;&#x4EF6;&#x7684;&#x4F7F;&#x7528;</p>
+</li>
+<li><p>&#x8FC7;&#x6EE4;&#x5668;&#x7684;&#x4F7F;&#x7528;</p>
+</li>
+<li><p>watch&#x548C;computed</p>
+</li>
+<li><p>&#x94A9;&#x5B50;&#x51FD;&#x6570;</p>
+</li>
+</ul>
+<blockquote>
+<p>&#x1F60B; &#x5B66;&#x4E60;&#x8FC7;&#x7A0B;&#x4E2D;&#x7684;&#x4E00;&#x4E9B;&#x5751;</p>
+</blockquote>
+<ul>
+<li><p>setTimeout/ setInterval</p>
+</li>
+<li><p>Vue&#x8DEF;&#x7531;&#x62E6;&#x622A;&#x6D4F;&#x89C8;&#x5668;&#x540E;&#x9000;&#x5B9E;&#x73B0;&#x8349;&#x7A3F;&#x4FDD;&#x5B58;&#x7C7B;&#x4F3C;&#x9700;&#x6C42;</p>
+</li>
+<li><p>&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6DFB;&#x52A0;click&#x7B49;&#x4E8B;&#x4EF6;&#x4E0D;&#x751F;&#x6548;</p>
+</li>
+<li><p>&#x624B;&#x52A8;&#x64CD;&#x63A7;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;</p>
+</li>
+<li><p>&#x6DF1;&#x5EA6;&#x4F5C;&#x7528;&#x9009;&#x62E9;&#x5668;</p>
+</li>
+<li><p>Vue&#x6570;&#x7EC4;/&#x5BF9;&#x8C61;&#x66F4;&#x65B0;&#x89C6;&#x56FE;&#x4E0D;&#x66F4;&#x65B0;</p>
+</li>
+<li><p>Vue Filters&#x8FC7;&#x6EE4;&#x5668;&#x7684;&#x4F7F;&#x7528;</p>
+</li>
+<li><p>Vue&#x6DF1;&#x5EA6;watch&#x4E0E;watch&#x7ACB;&#x5373;&#x89E6;&#x53D1;&#x56DE;&#x8C03;</p>
+</li>
+</ul>
+<blockquote>
+<p>&#x1F35F; vue&#x7EC4;&#x4EF6;&#x8D44;&#x6E90;&#x6C47;&#x603B;</p>
+</blockquote>
+<ul>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/element" target="_blank">element</a>&#x2605;13489 - &#x997F;&#x4E86;&#x4E48;&#x51FA;&#x54C1;&#x7684;Vue2&#x7684;web UI&#x5DE5;&#x5177;&#x5957;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/airyland/vux" target="_blank">Vux</a>&#x2605;8133 - &#x57FA;&#x4E8E;Vue&#x548C;WeUI&#x7684;&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/iview/iview" target="_blank">iview</a>&#x2605;6634 - &#x57FA;&#x4E8E; Vuejs &#x7684;&#x5F00;&#x6E90; UI &#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/mint-ui" target="_blank">mint-ui</a>&#x2605;6253 - Vue 2&#x7684;&#x79FB;&#x52A8;UI&#x5143;&#x7D20;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/museui/muse-ui" target="_blank">muse-ui</a>&#x2605;3705 - &#x4E09;&#x7AEF;&#x6837;&#x5F0F;&#x4E00;&#x81F4;&#x7684;&#x54CD;&#x5E94;&#x5F0F; UI &#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/marcosmoura/vue-material" target="_blank">vue-material</a>&#x2605;3328 - &#x901A;&#x8FC7;Vue Material&#x548C;Vue 2&#x5EFA;&#x7ACB;&#x7CBE;&#x7F8E;&#x7684;app&#x5E94;&#x7528;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vuetifyjs/vuetify" target="_blank">vuetify</a>&#x2605;2925 - &#x4E3A;&#x79FB;&#x52A8;&#x800C;&#x751F;&#x7684;Vue JS 2&#x7EC4;&#x4EF6;&#x6846;&#x67B6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/JosephusPaye/Keen-UI" target="_blank">Keen-UI</a>&#x2605;2749 - &#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x57FA;&#x672C;UI&#x7EC4;&#x4EF6;&#x5408;&#x96C6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/wangdahoo/vonic" target="_blank">vonic</a>&#x2605;1913 - &#x5FEB;&#x901F;&#x6784;&#x5EFA;&#x79FB;&#x52A8;&#x7AEF;&#x5355;&#x9875;&#x5E94;&#x7528;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/monterail/vue-multiselect" target="_blank">vue-multiselect</a>&#x2605;1539 - Vue.js&#x9009;&#x62E9;&#x6846;&#x89E3;&#x51B3;&#x65B9;&#x6848;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/egoist/eme" target="_blank">eme</a>&#x2605;1529 - &#x4F18;&#x96C5;&#x7684;Markdown&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/taylorchen709/vueAdmin" target="_blank">vueAdmin</a>&#x2605;1455 - &#x57FA;&#x4E8E;vuejs2&#x548C;element&#x7684;&#x7B80;&#x5355;&#x7684;&#x7BA1;&#x7406;&#x5458;&#x6A21;&#x677F;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/pi0/bootstrap-vue" target="_blank">bootstrap-vue</a>&#x2605;1267 - &#x5E94;&#x7528;&#x4E8E;Vuejs2&#x7684;Twitter&#x7684;Bootstrap 4&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/David-Desmaisons/Vue.Draggable" target="_blank">Vue.Draggable</a>&#x2605;1191 - &#x5B9E;&#x73B0;&#x62D6;&#x653E;&#x548C;&#x89C6;&#x56FE;&#x6A21;&#x578B;&#x6570;&#x7EC4;&#x540C;&#x6B65;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Zulko/eagle.js" target="_blank">eagle.js</a>&#x2605;1128 - hacker&#x7684;&#x5E7B;&#x706F;&#x7247;&#x6F14;&#x793A;&#x6846;&#x67B6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/surmon-china/vue-awesome-swiper" target="_blank">vue-awesome-swiper</a>&#x2605;1012 - vue.js&#x89E6;&#x6478;&#x6ED1;&#x52A8;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ratiw/vue-table" target="_blank">vue-table</a>&#x2605;1009 - &#x7B80;&#x5316;&#x6570;&#x636E;&#x8868;&#x683C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Coffcer/vue-chat" target="_blank">vue-chat</a>&#x2605;859 - vuejs&#x548C;vuex&#x53CA;webpack&#x7684;&#x804A;&#x5929;&#x793A;&#x4F8B;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/chenz24/vue-blu" target="_blank">vue-blu</a>&#x2605;850 - &#x5E2E;&#x52A9;&#x4F60;&#x8F7B;&#x677E;&#x521B;&#x5EFA;web&#x5E94;&#x7528;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-recyclerview" target="_blank">vue-recyclerview</a>&#x2605;849 - &#x7BA1;&#x7406;&#x5927;&#x5217;&#x8868;&#x7684;vue-recyclerview</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/OYsun/VueCircleMenu" target="_blank">VueCircleMenu</a>&#x2605;838 - &#x6F02;&#x4EAE;&#x7684;vue&#x5706;&#x73AF;&#x83DC;&#x5355;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/vue-infinite-scroll" target="_blank">vue-infinite-scroll</a>&#x2605;779 - VueJS&#x7684;&#x65E0;&#x9650;&#x6EDA;&#x52A8;&#x6307;&#x4EE4;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/rafaelpimpa/buefy" target="_blank">buefy</a>&#x2605;755 - &#x54CD;&#x5E94;&#x5F0F;UI&#x7EC4;&#x4EF6;&#x8F7B;&#x91CF;&#x7EA7;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/FE-Driver/vue-beauty" target="_blank">vue-beauty</a>&#x2605;749 - &#x7531;vue&#x548C;ant design&#x521B;&#x5EFA;&#x7684;&#x4F18;&#x7F8E;UI&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/MopTym/vue-waterfall" target="_blank">vue-waterfall</a>&#x2605;737 - Vue.js&#x7684;&#x7011;&#x5E03;&#x5E03;&#x5C40;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/luojilab/radon-ui" target="_blank">radon-ui</a>&#x2605;715 - &#x5FEB;&#x901F;&#x5F00;&#x53D1;&#x4EA7;&#x54C1;&#x7684;Vue&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/lookstudios/vue-loop" target="_blank">vue-loop</a>&#x2605;701 - &#x65E0;&#x9650;&#x7684;&#x5185;&#x5BB9;&#x5FAA;&#x73AF;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/apertureless/vue-chartjs" target="_blank">vue-chartjs</a>&#x2605;694 - vue&#x4E2D;&#x7684;Chartjs&#x7684;&#x5C01;&#x88C5;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/myronliu347/vue-carbon" target="_blank">vue-carbon</a>&#x2605;684 - &#x57FA;&#x4E8E; vue &#x5F00;&#x53D1;MD&#x98CE;&#x683C;&#x7684;&#x79FB;&#x52A8;&#x7AEF;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vuejs/vue-syntax-highlight" target="_blank">vue-syntax-highlight</a>&#x2605;655 - Sublime Text&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Justineo/vue-echarts" target="_blank">vue-echarts</a>&#x2605;649 - VueJS&#x7684;ECharts&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/surmon-china/vue-quill-editor" target="_blank">vue-quill-editor</a>&#x2605;615 - &#x57FA;&#x4E8E;Quill&#x9002;&#x7528;&#x4E8E;Vue2&#x7684;&#x5BCC;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/vue-amap" target="_blank">vue-amap</a>&#x2605;571 - &#x57FA;&#x4E8E;Vue 2&#x548C;&#x9AD8;&#x5FB7;&#x5730;&#x56FE;&#x7684;&#x5730;&#x56FE;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/jinzhe/vue-calendar" target="_blank">vue-calendar</a>&#x2605;536 - &#x65E5;&#x671F;&#x9009;&#x62E9;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/PeachScript/vue-infinite-loading" target="_blank">vue-infinite-loading</a>&#x2605;501 - VueJS&#x7684;&#x65E0;&#x9650;&#x6EDA;&#x52A8;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/vue-swipe" target="_blank">vue-swipe</a>&#x2605;481 - VueJS&#x89E6;&#x6478;&#x6ED1;&#x5757;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/microzz/vue-music-player" target="_blank">vue-music-player</a>&#x2605;451 - Vuejs&#x5199;&#x4E00;&#x4E2A;&#x97F3;&#x4E50;&#x64AD;&#x653E;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/wangdahoo/vue-scroller" target="_blank">vue-scroller</a>&#x2605;444 - Vonic UI&#x7684;&#x529F;&#x80FD;&#x6027;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-datepicker" target="_blank">vue-datepicker</a>&#x2605;436 - &#x65E5;&#x5386;&#x548C;&#x65E5;&#x671F;&#x9009;&#x62E9;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Vanthink-UED/vue-core-image-upload" target="_blank">vue-core-image-upload</a>&#x2605;393 - &#x8F7B;&#x91CF;&#x7EA7;&#x7684;vue&#x4E0A;&#x4F20;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-progressbar" target="_blank">vue-progressbar</a>&#x2605;379 - vue&#x8F7B;&#x91CF;&#x7EA7;&#x8FDB;&#x5EA6;&#x6761;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Zhangdroid/Gokotta" target="_blank">Gokotta</a>&#x2605;375 - &#x7B80;&#x5355;&#x7684;&#x97F3;&#x4E50;&#x64AD;&#x653E;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/sagalbot/vue-sortable" target="_blank">vue-sortable</a>&#x2605;373 - &#x8F7B;&#x677E;&#x6DFB;&#x52A0;&#x62D6;&#x62FD;&#x6392;&#x5E8F;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/alessiomaffeis/vue-picture-input" target="_blank">vue-picture-input</a>&#x2605;352 - &#x79FB;&#x52A8;&#x53CB;&#x597D;&#x7684;&#x56FE;&#x7247;&#x6587;&#x4EF6;&#x8F93;&#x5165;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/xlsdg/vue-echarts-v3" target="_blank">vue-echarts-v3</a>&#x2605;351 - VueJS&#x7EC4;&#x4EF6;&#x5C01;&#x88C5;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/jrainlau/markcook" target="_blank">markcook</a>&#x2605;343 - &#x597D;&#x770B;&#x7684;markdown&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/surmon-china/vue-video-player" target="_blank">vue-video-player</a>&#x2605;336 - VueJS&#x89C6;&#x9891;&#x53CA;&#x76F4;&#x64AD;&#x64AD;&#x653E;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/GuillaumeLeclerc/vue-google-maps" target="_blank">vue-google-maps</a>&#x2605;334 - &#x5E26;&#x6709;&#x53CC;&#x5411;&#x6570;&#x636E;&#x7ED1;&#x5B9A;Google&#x5730;&#x56FE;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/QingWei-Li/vue-trend" target="_blank">vue-trend</a>&#x2605;332 - &#x7B80;&#x5355;&#x4F18;&#x96C5;&#x7684;&#x661F;&#x5149;&#x7EBF;&#x6761;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/charliekassel/vuejs-datepicker" target="_blank">vuejs-datepicker</a>&#x2605;314 - vue&#x65E5;&#x671F;&#x9009;&#x62E9;&#x5668;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Wanderxx/vue-fullcalendar" target="_blank">vue-fullcalendar</a>&#x2605;313 - &#x57FA;&#x4E8E;vue.js&#x7684;&#x5168;&#x65E5;&#x5386;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/PeakTai/vue-html5-editor" target="_blank">vue-html5-editor</a>&#x2605;303 - html5&#x6240;&#x89C1;&#x5373;&#x6240;&#x5F97;&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/lian-yue/vue-upload-component" target="_blank">vue-upload-component</a>&#x2605;298 - Vuejs&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/SimonZhangITer/DataVisualization" target="_blank">DataVisualization</a>&#x2605;298 - &#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/matfish2/vue-tables-2" target="_blank">vue-tables-2</a>&#x2605;291 - &#x663E;&#x793A;&#x6570;&#x636E;&#x7684;bootstrap&#x6837;&#x5F0F;&#x7F51;&#x683C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/OYsun/VueStar" target="_blank">VueStar</a>&#x2605;270 - &#x5E26;&#x661F;&#x661F;&#x52A8;&#x753B;&#x7684;vue&#x70B9;&#x8D5E;&#x6309;&#x94AE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/njleonzhang/vue-data-tables" target="_blank">vue-data-tables</a>&#x2605;266 - VueJS2&#x6570;&#x636E;&#x8868;&#x683C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/TahaSh/vue-paginate" target="_blank">vue-paginate</a>&#x2605;261 - &#x5206;&#x9875;&#x6570;&#x636E;&#x7684;&#x7B80;&#x7EA6;VueJS&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ydcss/vue-ydui" target="_blank">vue-ydui</a>&#x2605;247 - &#x57FA;&#x4E8E;Vue2&#x7684;&#x79FB;&#x52A8;&#x7AEF;&#x548C;&#x5FAE;&#x4FE1;UI</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/egoist/vue-mugen-scroll" target="_blank">vue-mugen-scroll</a>&#x2605;239 - &#x65E0;&#x9650;&#x6EDA;&#x52A8;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Akryum/vue-virtual-scroller" target="_blank">vue-virtual-scroller</a>&#x2605;238 - &#x5E26;&#x4EFB;&#x610F;&#x6570;&#x76EE;&#x6570;&#x636E;&#x7684;&#x987A;&#x7545;&#x7684;&#x6EDA;&#x52A8;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/icai/vue2-calendar" target="_blank">vue2-calendar</a>&#x2605;236 - &#x652F;&#x6301;lunar&#x548C;&#x65E5;&#x671F;&#x4E8B;&#x4EF6;&#x7684;&#x65E5;&#x671F;&#x9009;&#x62E9;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/rowanwins/vue-dropzone" target="_blank">vue-dropzone</a>&#x2605;233 - &#x7528;&#x4E8E;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x7684;Vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Awheat/vue2-douban-market" target="_blank">vue2-douban-market</a>&#x2605;233 - &#x4EFF;&#x8C46;&#x74E3;&#x5E02;&#x96C6;webapp&#x9879;&#x76EE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/euvl/vue-js-modal" target="_blank">vue-js-modal</a>&#x2605;228 - &#x79FB;&#x52A8;&#x53CB;&#x597D;&#x7684;Vuejs2&#x7684;modal</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/warpcgd/vue-slider" target="_blank">vue-slider</a>&#x2605;224 - vue &#x6ED1;&#x52A8;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Haixing-Hu/vue-datetime-picker" target="_blank">vue-datetime-picker</a>&#x2605;224 - &#x65E5;&#x671F;&#x65F6;&#x95F4;&#x9009;&#x62E9;&#x63A7;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ccforward/rubik" target="_blank">rubik</a>&#x2605;217 - &#x57FA;&#x4E8E;Vuejs2&#x7684;&#x5F00;&#x6E90; UI &#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/coderdiaz/vue-datasource" target="_blank">vue-datasource</a>&#x2605;210 - &#x521B;&#x5EFA;VueJS&#x52A8;&#x6001;&#x8868;&#x683C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/dai-siki/vue-image-crop-upload" target="_blank">vue-image-crop-upload</a>&#x2605;205 - vue&#x56FE;&#x7247;&#x526A;&#x88C1;&#x4E0A;&#x4F20;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hifarer/Vueditor" target="_blank">Vueditor</a>&#x2605;204 - &#x6240;&#x89C1;&#x5373;&#x6240;&#x5F97;&#x7684;&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/mint-ui/mint-loadmore" target="_blank">mint-loadmore</a>&#x2605;203 - VueJS&#x7684;&#x53CC;&#x5411;&#x4E0B;&#x62C9;&#x5237;&#x65B0;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/NightCatSama/vue-slider-component" target="_blank">vue-slider-component</a>&#x2605;202 - &#x5728;vue1&#x548C;vue2&#x4E2D;&#x4F7F;&#x7528;&#x6ED1;&#x5757;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/microzz/vue-chat" target="_blank">vue-chat</a>&#x2605;200 - Vue&#x5168;&#x5BB6;&#x6876;+Socket.io+Express/Koa2&#x6253;&#x9020;&#x4E00;&#x4E2A;&#x667A;&#x80FD;&#x804A;&#x5929;&#x5BA4;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hinesboy/mavonEditor" target="_blank">mavonEditor</a>&#x2605;179 - &#x57FA;&#x4E8E;Vue&#x7684;markdown&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Wlada/vue-carousel-3d" target="_blank">vue-carousel-3d</a>&#x2605;173 - VueJS&#x7684;3D&#x8F6E;&#x64AD;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Dafrok/vue-baidu-map" target="_blank">vue-baidu-map</a>&#x2605;170 - &#x57FA;&#x4E8E; Vue 2&#x7684;&#x767E;&#x5EA6;&#x5730;&#x56FE;&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/adeptoas/sweet-modal-vue" target="_blank">sweet-modal-vue</a>&#x2605;170 - &#x7CBE;&#x7F8E;&#x7684;&#x70B9;&#x51FB;&#x63D0;&#x793A;&#x5BF9;&#x8BDD;&#x6846;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/creotip/vue-particles" target="_blank">vue-particles</a>&#x2605;168 - &#x7C92;&#x5B50;&#x80CC;&#x666F;&#x7684;vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/weilao/vue-swiper" target="_blank">vue-swiper</a>&#x2605;167 - &#x6613;&#x4E8E;&#x4F7F;&#x7528;&#x7684;&#x6ED1;&#x5757;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/F-loat/vue-simplemde" target="_blank">vue-simplemde</a>&#x2605;166 - VueJS&#x7684;Markdown&#x7F16;&#x8F91;&#x5668;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-slide" target="_blank">vue-slide</a>&#x2605;161 - vue&#x8F7B;&#x91CF;&#x7EA7;&#x6ED1;&#x52A8;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Astray-git/vue-dragula" target="_blank">vue-dragula</a>&#x2605;157 - &#x4F7F;&#x62D6;&#x653E;&#x53D8;&#x5F97;&#x7B80;&#x5355;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Alex-fun/vue-drag-and-drop-list" target="_blank">vue-drag-and-drop-list</a>&#x2605;156 - &#x521B;&#x5EFA;&#x6392;&#x5E8F;&#x5217;&#x8868;&#x7684;Vue&#x6307;&#x4EE4;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/davidroyer/vue2-editor" target="_blank">vue2-editor</a>&#x2605;155 - HTML&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hchstera/vue-charts" target="_blank">vue-charts</a>&#x2605;152 - &#x8F7B;&#x677E;&#x6E32;&#x67D3;&#x4E00;&#x4E2A;&#x56FE;&#x8868;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/LucienLee/vue-data-grid" target="_blank">vue-data-grid</a>&#x2605;151 - VueJS&#x590D;&#x6742;&#x684C;&#x9762;&#x4EA4;&#x4E92;&#x793A;&#x4F8B;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vuwe/vuwe" target="_blank">vuwe</a>&#x2605;150 - &#x57FA;&#x4E8E;&#x5FAE;&#x4FE1;WeUI&#x6240;&#x5F00;&#x53D1;&#x7684;&#x4E13;&#x7528;&#x4E8E;Vue2&#x7684;&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/MatteoGabriele/vue-progressive-image" target="_blank">vue-progressive-image</a>&#x2605;148 - Vue&#x7684;&#x6E10;&#x8FDB;&#x56FE;&#x50CF;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/vue-msgbox" target="_blank">vue-msgbox</a>&#x2605;148 - vuejs&#x7684;&#x6D88;&#x606F;&#x6846;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/JALBAA/vue-lazyload-mg" target="_blank">vue-lazyload-img</a>&#x2605;147 - &#x79FB;&#x52A8;&#x4F18;&#x5316;&#x7684;vue&#x56FE;&#x7247;&#x61D2;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-dragging" target="_blank">vue-dragging</a>&#x2605;146 - &#x4F7F;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x62D6;&#x62FD;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/santiblanko/vue-instant" target="_blank">vue-instant</a>&#x2605;143 - &#x8F7B;&#x677E;&#x521B;&#x5EFA;&#x81EA;&#x52A8;&#x63D0;&#x793A;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x641C;&#x7D22;&#x63A7;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/nicolasbeauvais/vue-social-sharing" target="_blank">vue-social-sharing</a>&#x2605;142 - &#x793E;&#x4EA4;&#x5206;&#x4EAB;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/littlewin-wang/vue-images" target="_blank">vue-images</a>&#x2605;139 - &#x663E;&#x793A;&#x4E00;&#x7EC4;&#x56FE;&#x7247;&#x7684;lightbox&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/NewDadaFE/vue-impression" target="_blank">vue-impression</a>&#x2605;134 - &#x79FB;&#x52A8;Vuejs2 UI&#x5143;&#x7D20;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ovenslove/vue-mdEditor" target="_blank">vue-mdEditor</a>&#x2605;131 - &#x57FA;&#x4E8E;VUE&#x7684;markdown&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/cngu/vue-typer" target="_blank">vue-typer</a>&#x2605;130 - &#x6A21;&#x62DF;&#x7528;&#x6237;&#x8F93;&#x5165;&#x9009;&#x62E9;&#x548C;&#x5220;&#x9664;&#x6587;&#x672C;&#x7684;Vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/weizhenye/vue-highcharts" target="_blank">vue-highcharts</a>&#x2605;130 - HighCharts&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Akryum/vue-tooltip" target="_blank">vue-tooltip</a>&#x2605;129 - &#x5E26;&#x7ED1;&#x5B9A;&#x4FE1;&#x606F;&#x63D0;&#x793A;&#x7684;&#x63D0;&#x793A;&#x5DE5;&#x5177;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/MMF-FE/vue-svgicon" target="_blank">vue-svgicon</a>&#x2605;127 - &#x521B;&#x5EFA;svg&#x56FE;&#x6807;&#x7EC4;&#x4EF6;&#x7684;&#x5DE5;&#x5177;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/wdfe/wdui" target="_blank">wdui</a>&#x2605;124 - &#x57FA;&#x4E8E;Vue2&#x7684;UI&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/BosNaufal/vue2-loading-bar" target="_blank">vue2-loading-bar</a>&#x2605;118 - &#x6700;&#x7B80;&#x5355;&#x7684;&#x4EFF;Youtube&#x52A0;&#x8F7D;&#x6761;&#x89C6;&#x56FE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/spatie/vue-tabs-component" target="_blank">vue-tabs-component</a>&#x2605;116 - &#x6E32;&#x67D3;tabs&#x7684;Vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hzzly/MagicMusic" target="_blank">MagicMusic</a>&#x2605;113 - &#x4E0D;&#x4E00;&#x6837;&#x7684;&#x97F3;&#x4E50;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/QingWei-Li/vue-region-picker" target="_blank">vue-region-picker</a>&#x2605;111 - &#x9009;&#x62E9;&#x4E2D;&#x56FD;&#x7684;&#x7701;&#x4EFD;&#x5E02;&#x548C;&#x5730;&#x533A;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/galenyuan/vue-datatable" target="_blank">vue-datatable</a>&#x2605;102 - &#x4F7F;&#x7528;Vuejs&#x521B;&#x5EFA;&#x7684;DataTableView</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Coffcer/vue-loading" target="_blank">vue-loading</a>&#x2605;102 - &#x5143;&#x7D20;&#x4E2D;&#x52A0;&#x8F7D;block&#x7684;Vue&#x6307;&#x4EE4;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/chenjiahan/vodal" target="_blank">vodal</a>&#x2605;99 - &#x52A8;&#x753B;&#x7684;vue&#x6A21;&#x6001;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/waynecz/vue-img-inputer" target="_blank">vue-img-inputer</a>&#x2605;97 - &#x57FA;&#x4E8E;Vue2&#x7684;&#x56FE;&#x7247;&#x8F93;&#x5165;&#x6846;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/hilongjw/vue-video" target="_blank">vue-video</a>&#x2605;96 - Vue.js&#x7684;HTML5&#x89C6;&#x9891;&#x64AD;&#x653E;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/surmon-china/vue-touch-ripple" target="_blank">vue-touch-ripple</a>&#x2605;95 - vuejs&#x7684;&#x89E6;&#x6478;ripple&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/GeoffZhu/vue-event-calendar" target="_blank">vue-event-calendar</a>&#x2605;91 - &#x7B80;&#x5355;&#x5C0F;&#x5DE7;&#x7684;&#x4E8B;&#x4EF6;&#x65E5;&#x5386;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/luiguild/v-bar" target="_blank">v-bar</a>&#x2605;91 - &#x865A;&#x62DF;&#x54CD;&#x5E94;&#x8DE8;&#x6D4F;&#x89C8;&#x5668;&#x6EDA;&#x52A8;&#x6761;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/phoenixwong/vue2-timepicker" target="_blank">vue2-timepicker</a>&#x2605;84 - &#x4E0B;&#x62C9;&#x65F6;&#x95F4;&#x9009;&#x62E9;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/lokyoung/vuejs-paginate" target="_blank">vuejs-paginate</a>&#x2605;80 - &#x5206;&#x9875;VueJS&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ElemeFE/vue-toast-mobile" target="_blank">vue-toast-mobile</a>&#x2605;79 - VueJS&#x7684;toast&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/weifeiyue/vue-datepicker" target="_blank">vue-datepicker</a>&#x2605;78 - &#x6F02;&#x4EAE;&#x7684;Vue&#x65E5;&#x671F;&#x9009;&#x62E9;&#x5668;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/shhdgit/vue-easy-slider" target="_blank">vue-easy-slider</a>&#x2605;77 - Vue 2.x&#x7684;&#x6ED1;&#x5757;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/bkzl/vue-float-label" target="_blank">vue-float-label</a>&#x2605;76 - VueJS&#x6D6E;&#x52A8;&#x6807;&#x7B7E;&#x6A21;&#x5F0F;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/BosNaufal/vue-scrollbar" target="_blank">vue-scrollbar</a>&#x2605;76 - &#x6700;&#x7B80;&#x5355;&#x7684;&#x6EDA;&#x52A8;&#x533A;&#x57DF;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/youzan/vant" target="_blank">vant</a>&#x2605;74 - &#x6709;&#x8D5E;&#x51FA;&#x54C1;&#x7684;Vue2.0&#x79FB;&#x52A8;UI</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/arvidkahl/vue-json-tree-view" target="_blank">vue-json-tree-view</a>&#x2605;74 - Vue&#x7684;JSON&#x6811;&#x89C6;&#x56FE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/staskjs/vue-slick" target="_blank">vue-slick</a>&#x2605;73 - &#x5B9E;&#x73B0;&#x6D41;&#x7545;&#x8F6E;&#x64AD;&#x6846;&#x7684;vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/znck/vue-keynote" target="_blank">vue-keynote</a>&#x2605;73 - &#x5B9E;&#x73B0;&#x58F0;&#x660E;&#x6027;&#x4EE3;&#x7801;&#x5E7B;&#x706F;&#x7247;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/phanan/vue-google-signin-button" target="_blank">vue-google-signin-button</a>&#x2605;73 - &#x5BFC;&#x5165;&#x8C37;&#x6B4C;&#x767B;&#x5F55;&#x6309;&#x94AE;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/SinanMtl/vue-rate" target="_blank">vue-rate</a>&#x2605;68 - Vue&#x8BC4;&#x5206;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/moip/awesome-mask" target="_blank">awesome-mask</a>&#x2605;67 - &#x62E5;&#x6709;&#x72EC;&#x4E00;&#x65E0;&#x4E8C;mask&#x7684;&#x8868;&#x5355;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/wyzant-dev/vue-radial-progress" target="_blank">vue-radial-progress</a>&#x2605;65 - Vue.js&#x653E;&#x5C04;&#x6027;&#x8FDB;&#x5EA6;&#x6761;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/CroudSupport/vue-quill" target="_blank">vue-quill</a>&#x2605;65 - vue&#x7EC4;&#x4EF6;&#x6784;&#x5EFA;quill&#x7F16;&#x8F91;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Bubblings/vue-date-picker" target="_blank">vue-date-picker</a>&#x2605;63 - VueJS&#x65E5;&#x671F;&#x9009;&#x62E9;&#x5668;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Kocisov/coffeebreak" target="_blank">coffeebreak</a>&#x2605;62 - &#x5B9E;&#x65F6;&#x7F16;&#x8F91;CSS&#x7EC4;&#x4EF6;&#x5DE5;&#x5177;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/xaksis/vue-good-wizard" target="_blank">vue-good-wizard</a>&#x2605;61 - VueJS 2.x wizard plugin</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/jkchao/vue-loading" target="_blank">vue-loading</a>&#x2605;60 - &#x4F7F;&#x7528;SVG&#x52A0;&#x8F7D;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vue-bulma/datepicker" target="_blank">datepicker</a>&#x2605;59 - &#x57FA;&#x4E8E;flatpickr&#x7684;&#x65F6;&#x95F4;&#x9009;&#x62E9;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/lithiumjake/vue-placeholders" target="_blank">vue-placeholders</a>&#x2605;58 - &#x5904;&#x7406;&#x5360;&#x4F4D;&#x7B26;&#x56FE;&#x7247;&#x548C;&#x4E71;&#x7801;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/tianyong90/we-vue" target="_blank">we-vue</a>&#x2605;55 - Vue2&#x53CA;weui1&#x5F00;&#x53D1;&#x7684;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/CroudSupport/vue-fullcalendar" target="_blank">vue-fullcalendar</a>&#x2605;55 - vue FullCalendar&#x5C01;&#x88C5;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ankane/vue-chartkick" target="_blank">vue-chartkick</a>&#x2605;53 - VueJS&#x4E00;&#x884C;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x4F18;&#x7F8E;&#x56FE;&#x8868;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/chengxulvtu/cxlt-vue2-toastr" target="_blank">cxlt-vue2-toastr</a>&#x2605;52 - &#x5F39;&#x51FA;&#x63D0;&#x793A;&#x7684;Vue2&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/formly-js/vue-formly" target="_blank">vue-formly</a>&#x2605;51 - VueJS&#x7684;JS&#x8868;&#x5355;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/BosNaufal/vue2-autocomplete" target="_blank">vue2-autocomplete</a>&#x2605;51 - vue2&#x7684;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/bbonnin/vue-morris" target="_blank">vue-morris</a>&#x2605;50 - Vuejs&#x7EC4;&#x4EF6;&#x5C01;&#x88C5;Morrisjs&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ecomfe/veui" target="_blank">veui</a>&#x2605;50 - VueJS&#x767E;&#x5EA6;&#x4F01;&#x4E1A;UI</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/yunfeihuang/vue-components" target="_blank">vue-components</a>&#x2605;49 - &#x79FB;&#x52A8;&#x7AEF;UI&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/craigh411/vue-star-rating" target="_blank">vue-star-rating</a>&#x2605;49 - &#x7B80;&#x5355;&#x9AD8;&#x5EA6;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x661F;&#x661F;&#x8BC4;&#x7EA7;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Ginhing/vue-tagsinput" target="_blank">vue-tagsinput</a>&#x2605;48 - &#x57FA;&#x4E8E;VueJS&#x7684;&#x6807;&#x7B7E;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/alexqdjay/vue-tabs" target="_blank">vue-tabs</a>&#x2605;47 - &#x591A;tab&#x9875;&#x8F7B;&#x578B;&#x6846;&#x67B6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/myronliu347/vue-popup-mixin" target="_blank">vue-popup-mixin</a>&#x2605;47 - &#x7528;&#x4E8E;&#x7BA1;&#x7406;&#x5F39;&#x51FA;&#x6846;&#x7684;&#x906E;&#x76D6;&#x5C42;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/PygmySlowLoris/vue-ripple-directive" target="_blank">vue-ripple-directive</a>&#x2605;45 - &#x4F7F;&#x7528;Vue&#x6307;&#x4EE4;&#x7684;Material&#x6CE2;&#x7EB9;&#x6548;&#x679C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/xyxiao001/vue-cropper" target="_blank">vue-cropper</a>&#x2605;42 - &#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;vue &#x7684;&#x56FE;&#x7247;&#x88C1;&#x526A;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/lisiyizu/vue-ztree" target="_blank">vue-ztree</a>&#x2605;41 - &#x7528; vue &#x5199;&#x7684;&#x6811;&#x5C42;&#x7EA7;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/icebob/vue-touch-keyboard" target="_blank">vue-touch-keyboard</a>&#x2605;41 - VueJS&#x865A;&#x62DF;&#x952E;&#x76D8;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/fangyongbao/cubeex" target="_blank">cubeex</a>&#x2605;40 - &#x5305;&#x542B;&#x4E00;&#x5957;&#x5B8C;&#x6574;&#x7684;&#x79FB;&#x52A8;UI</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/miaolz123/vue-chart" target="_blank">vue-chart</a>&#x2605;40 - &#x5F3A;&#x5927;&#x7684;&#x9AD8;&#x901F;&#x7684;vue&#x56FE;&#x8868;&#x89E3;&#x6790;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/yunyi1895/vue-music-master" target="_blank">vue-music-master</a>&#x2605;40 - vue&#x624B;&#x673A;&#x7AEF;&#x7F51;&#x9875;&#x97F3;&#x4E50;&#x64AD;&#x653E;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/jbaysolutions/vue-bootstrap-table" target="_blank">vue-bootstrap-table</a>&#x2605;39 - &#x53EF;&#x6392;&#x5E8F;&#x53EF;&#x68C0;&#x7D22;&#x7684;&#x8868;&#x683C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/jkchao/vue-emoji" target="_blank">vue-emoji</a>&#x2605;39 - &#x597D;&#x7528;&#x7684;emoji&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vue-bulma/handsontable" target="_blank">handsontable</a>&#x2605;39 - &#x7F51;&#x9875;&#x8868;&#x683C;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/matfish2/vue-form-2" target="_blank">vue-form-2</a>&#x2605;37 - &#x5168;&#x9762;&#x7684;HTML&#x8868;&#x5355;&#x7BA1;&#x7406;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/blue0728/vue-area" target="_blank">vue-area</a>&#x2605;37 - &#x7701;&#x5E02;&#x533A;&#x4E09;&#x7EA7;&#x8054;&#x52A8;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vue-comps/vue-side-nav" target="_blank">vue-side-nav</a>&#x2605;37 - &#x54CD;&#x5E94;&#x5F0F;&#x7684;&#x4FA7;&#x8FB9;&#x5BFC;&#x822A;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ShanaMaid/vue-image-scroll" target="_blank">vue-image-scroll</a>&#x2605;36 - &#x4EFF;&#x7F51;&#x6613;&#x4E91;&#x97F3;&#x4E50;&#x7684;vue&#x56FE;&#x7247;&#x6EDA;&#x52A8;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/bajian/vue-pull-to-refresh" target="_blank">vue-pull-to-refresh</a>&#x2605;35 - Vue2&#x7684;&#x4E0A;&#x62C9;&#x4E0B;&#x62C9;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/mint-ui/mint-indicator" target="_blank">mint-indicator</a>&#x2605;35 - VueJS&#x79FB;&#x52A8;&#x52A0;&#x8F7D;&#x6307;&#x793A;&#x5668;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/legeneek/vue-image-clip" target="_blank">vue-image-clip</a>&#x2605;34 - &#x57FA;&#x4E8E;vue&#x7684;&#x56FE;&#x50CF;&#x526A;&#x8F91;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/loujiayu/vue-material-design" target="_blank">vue-material-design</a>&#x2605;34 - Vue MD&#x98CE;&#x683C;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/saivarunk/vue-simple-upload" target="_blank">vue-simple-upload</a>&#x2605;31 - &#x7B80;&#x5355;&#x7684;VueJS&#x4E0A;&#x4F20;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vue-bulma/chartjs" target="_blank">chartjs</a>&#x2605;29 - Vue Bulma&#x7684;chartjs&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/darrynten/vue-lazy-background-images" target="_blank">vue-lazy-background-images</a>&#x2605;29 - &#x61D2;&#x52A0;&#x8F7D;&#x80CC;&#x666F;&#x7EC4;&#x4EF6;&#x7684;Vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/BosNaufal/vue-ripple" target="_blank">vue-ripple</a>&#x2605;29 - &#x5236;&#x4F5C;&#x8C37;&#x6B4C;MD&#x98CE;&#x683C;&#x6D9F;&#x6F2A;&#x6548;&#x679C;&#x7684;Vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/suguangwen/vue-scroll" target="_blank">vue-scroll</a>&#x2605;27 - vue&#x6EDA;&#x52A8;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/gilbitron/laravel-vue-pagination" target="_blank">laravel-vue-pagination</a>&#x2605;26 - VueJS&#x5206;&#x9875;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/dai-siki/vue-datepicker-simple" target="_blank">vue-datepicker-simple</a>&#x2605;26 - &#x57FA;&#x4E8E;vue&#x7684;&#x65E5;&#x671F;&#x9009;&#x62E9;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/shiye515/vue-m-carousel" target="_blank">vue-m-carousel</a>&#x2605;26 - vue &#x79FB;&#x52A8;&#x7AEF;&#x8F6E;&#x64AD;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/vue-comps/vue-parallax" target="_blank">vue-parallax</a>&#x2605;23 - &#x6574;&#x6D01;&#x7684;&#x89C6;&#x89C9;&#x6548;&#x679C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/JackGit/vue-img-loader" target="_blank">vue-img-loader</a>&#x2605;22 - &#x56FE;&#x7247;&#x52A0;&#x8F7D;UI&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/weibangtuo/vue-tree" target="_blank">vue-tree</a>&#x2605;22 - vue&#x6811;&#x89C6;&#x56FE;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/aweiu/vue-verify-pop" target="_blank">vue-verify-pop</a>&#x2605;22 - &#x5E26;&#x6C14;&#x6CE1;&#x63D0;&#x793A;&#x7684;vue&#x6821;&#x9A8C;&#x63D2;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Teddy-Zhu/vue-waves" target="_blank">vue-waves</a>&#x2605;22 - waves&#x7684;VueJS&#x7248;&#x672C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Teddy-Zhu/vue-smoothscroll" target="_blank">vue-smoothscroll</a>&#x2605;20 - smoothscroll&#x7684;VueJS&#x7248;&#x672C;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/xinxingyu/vue-city" target="_blank">vue-city</a>&#x2605;19 - &#x57CE;&#x5E02;&#x9009;&#x62E9;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/sinchang/vue-laypage" target="_blank">vue-laypage</a>&#x2605;17 - &#x7B80;&#x5355;&#x7684;VueJS&#x5206;&#x9875;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/eduardostuart/vue-typewriter" target="_blank">vue-typewriter</a>&#x2605;15 - vue&#x7EC4;&#x4EF6;&#x7C7B;&#x578B;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/Treri/vue-ios-alertview" target="_blank">vue-ios-alertview</a>&#x2605;14 - iOS7+ &#x98CE;&#x683C;&#x7684;alertview&#x670D;&#x52A1;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/doodlewind/vue-cmap" target="_blank">vue-cmap</a>&#x2605;14 - Vue China map&#x53EF;&#x89C6;&#x5316;&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/yeseason/paco-ui-vue" target="_blank">paco-ui-vue</a>&#x2605;12 - PACOUI&#x7684;vue&#x7EC4;&#x4EF6;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/savokiss/vue-cascading-address" target="_blank">vue-cascading-address</a>&#x2605;9 - vue&#x5730;&#x533A;&#x9009;&#x62E9;&#x5668;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/ibufu/dd-vue-component" target="_blank">dd-vue-component</a>&#x2605;7 - &#x8BA2;&#x5355;&#x6765;&#x4E86;&#x7684;&#x516C;&#x5171;&#x7EC4;&#x4EF6;&#x5E93;</li>
+<li><a href="https://link.jianshu.com/?t=https://github.com/steven5538/vue-button" target="_blank">vue-button</a>&#x2605;5 - Vue&#x6309;&#x94AE;&#x7EC4;&#x4EF6;</li>
+</ul>
+<blockquote>
+<p>&#x1F915; &#x540E;&#x7EED;&#x66F4;&#x65B0;&#x3002;&#x3002;&#x3002;</p>
+</blockquote>
 
                                 
                                 </section>
@@ -211,7 +462,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"学习前准备","level":"1.2","depth":1,"path":"学习前准备/学习前准备.md","ref":"学习前准备/学习前准备.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-03-24T13:41:39.662Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-24T14:12:30.319Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"学习前准备","level":"1.2","depth":1,"path":"学习前准备/学习前准备.md","ref":"学习前准备/学习前准备.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-03-25T15:05:47.676Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-25T15:06:12.873Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
