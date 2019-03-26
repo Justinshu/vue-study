@@ -1,5 +1,6 @@
 # 😊vue学习之路
 
+[![框架](https://img.shields.io/badge/language-es6-green.svg)](http://es6.ruanyifeng.com/#docs/let)  [![vue](https://img.shields.io/badge/framework-vue-orange.svg)](https://cn.vuejs.org/v2/guide/index.html)
 
 > 😎 生产环境使用vue开发前端
 
